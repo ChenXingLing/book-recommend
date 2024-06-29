@@ -50,7 +50,7 @@
 
 ![](./NCF/results/_3.png)
 
-![](./NCF/results/_1.png)
+![](./NCF/results/_1.PNG)
 
 由于训练速度较慢，改变参数 `BATCH_SIZE = 2048`
 
@@ -62,7 +62,7 @@
 
 但分数反而下降了，可能是因为 `BATCH_SIZE` 太大导致过拟合。
 
-![](./NCF/results/_2.png)
+![](./NCF/results/_2.PNG)
 
 ### **【SASRec】**
 
@@ -169,4 +169,4 @@ model.eval()
 
 分数大幅提升：
 
-![](./SASRec/results/score.png)
+![](./SASRec/results/score.PNG)
